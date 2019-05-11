@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tictactoe_server;
+package de.hamp_it.tictactoe_server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

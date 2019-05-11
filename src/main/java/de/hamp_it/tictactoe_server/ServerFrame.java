@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tictactoe_server;
+package de.hamp_it.tictactoe_server;
 
 import java.awt.Toolkit;
 
@@ -90,6 +90,6 @@ public class ServerFrame extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
     
     private void setIcon() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("img.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getClassLoader().getResource("img.png")));
     }
 }
